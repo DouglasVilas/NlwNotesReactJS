@@ -1,6 +1,6 @@
-import logo from 'assets/Logo.svg'
-import { NoteCard } from 'componentes/note-card'
-import { NewNoteCard } from 'componentes/new-note-card'
+import logo from './assets/Logo.svg'
+import { NoteCard } from './componentes/note-card'
+import { NewNoteCard } from './componentes/new-note-card'
 import {  ChangeEvent, useState } from 'react'
 
 interface Note {
